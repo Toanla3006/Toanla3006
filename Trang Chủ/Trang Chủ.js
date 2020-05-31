@@ -90,8 +90,8 @@ var ThongTinAnh8 = "Jetstar Pacific <br> Airbus A320-200 <br> Reg: VN-A573 <br> 
 var ThongTinAnh9 = "Vietjet Air <br> Airbus A321-200 <br> Reg: VN-A541 <br> Tác giả: ";
 var ThongTinAnh10 = "AirAsia <br> Airbus 320-200 <br> Reg: 9M-AJN <br> Tác giả: ";
 var ThongTinAnh11 = "Cambodia Angkor Air <br> Airbus 320-200 <br> Reg: XU-353 <br> Tác giả: ";
-var ThongTinAnh12 = "Bamboo Airways <br> Boeing 787-9 Dreamliner <br> Reg: VN-A829 <br> Tác giả: ";
-var ThongTinAnh13 = "Bamboo Airways <br> Boeing 787-9 Dreamliner <br> Reg: VN-A819 <br> Tác giả: ";
+var ThongTinAnh12 = "Bamboo Airways <br> Boeing 787-9  <br> Reg: VN-A829 <br> Tác giả: ";
+var ThongTinAnh13 = "Bamboo Airways <br> Boeing 787-9  <br> Reg: VN-A819 <br> Tác giả: ";
 var ThongTinAnh14 = "Vietjet Air <br> Airbus A321-200 <br> Reg: VN-A693 <br> Tác giả: ";
 var ThongTinAnh15 = "SilkAir <br> Boeing 737-800 <br> Reg: 9V-MGF <br> Tác giả: ";
 var ThongTinAnh16 = "Bamboo Airways <br> Airbus 320-200 <br> Reg: TC-FBO <br> Tác giả: ";
@@ -102,7 +102,7 @@ var ThongTinAnh20 = "YTO Airlines <br> Boeing 737-300F <br> Reg: B-2608 <br> Tá
 var ThongTinAnh21 = "Vietjet Air <br> Airbus A321-200 <br> Reg: VN-A644 <br> Tác giả: ";
 var ThongTinAnh22 = "Eva Air <br> Boeing 777-300ER <br> Reg: B-16722 <br> Tác giả: ";
 var ThongTinAnh23 = "China Airlines <br> Airbus 330-300 <br> Reg: B-18316 <br> Tác giả: ";
-var ThongTinAnh24 = "Bamboo Airways <br> Boeing 787-9 Dreamliner <br> Reg: VN-A829 <br> Tác giả: ";
+var ThongTinAnh24 = "Bamboo Airways <br> Boeing 787-9  <br> Reg: VN-A829 <br> Tác giả: ";
 function XULITHONGTINTHEMES()
 {
 	document.getElementById('WebsiteName').innerHTML=WebsiteName;
@@ -136,7 +136,7 @@ function XULITHONGTINHINHANH(){
 	$('#HotPicture4').attr("src",HotPic4_address);
 	$('#HotPicture5').attr("src",HotPic5_address);
 	$('#HotPicture6').attr("src",HotPic6_address);
-	$('#Advertise img').attr("src",Advertise);
+	$('#Ad_Pic').attr("src",Advertise);
 }
 
 var STT = 1;

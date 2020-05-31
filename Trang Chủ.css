@@ -201,7 +201,7 @@
 	border: 2px solid black;
 	border-radius: 10px;
 }
-#Advertise img{
+#Ad_Pic{
 	width:246px;
 	border: 2px solid black;
 	padding-left: -1px;
@@ -526,3 +526,18 @@
 }
 
 /*--------------------------------------FOOTER-------------------------------------------*/
+
+@media screen and (max-width: 375px)
+{
+	.main:before, .main:after{
+		content: "";
+		clear: both;
+	}
+	.main{
+		max-width: 100%;
+	}
+	.container{
+		max-width: 100%;
+	}
+}
+
